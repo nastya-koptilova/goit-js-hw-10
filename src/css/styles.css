@@ -30,8 +30,8 @@ li {
 
 .contry-info-header {
   display: flex;
-  gap: 15px;
   align-items: center;
+  gap: 15px;
 }
 
 .contry-info-header p {
