@@ -30,6 +30,8 @@ const onInputElFill = event => {
         }
       })
       .catch(error => {
+        countryInfoEl.innerHTML = '';
+        countryListEL.innerHTML = '';
         Notiflix.Notify.failure('Oops, there is no country with that name');
       });
   } else {
